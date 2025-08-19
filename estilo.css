@@ -16,3 +16,6 @@
     position: relative;
     top: 70px;
  }
+ .bg-light border rounded p-3 my-4{
+ text-align: center;
+ }
