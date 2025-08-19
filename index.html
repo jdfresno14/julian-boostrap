@@ -4,26 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Agregar Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-      .carousel-custom-width {
-        /* max-width: 500px; */
-        width: 80%;
-        max-width: 1000px;
+      body {
+        background-color: #23272b !important;
       }
-      .article-images {
-        width: 80%;
-        max-width: 1000px;
-        margin: 0 auto 2rem auto;
+      footer {
+        background-color: #000 !important;
+        color: #fff !important;
       }
-      .article-images img {
-        display: block;
-        width: 100%;
-        margin-bottom: 1.5rem;
-        border-radius: 0.5rem;
-      }
-      /* Navbar y botones en rojo */
       .navbar-red {
         background-color: #dc3545 !important;
       }
@@ -40,32 +29,24 @@
       .navbar-red .navbar-toggler {
         border-color: #fff !important;
       }
-      .btn-red,
-      .carousel-control-prev,
-      .carousel-control-next {
-        background-color: #dc3545 !important;
-        border-color: #dc3545 !important;
-        color: #fff !important;
-      }
-      .btn-red:hover,
-      .carousel-control-prev:hover,
-      .carousel-control-next:hover {
-        background-color: #b52a37 !important;
-        border-color: #b52a37 !important;
-        color: #fff !important;
-      }
     </style>
 </head>
 <body>
-    <!-- Navbar inicio -->
+  
     <nav class="navbar navbar-expand-lg navbar-red mb-4">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Mi Sitio</a>
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="img/9c461c7bfbe7309a432828c34374da96-coche-de-formula-uno-brillante-removebg-preview.png" alt="Logo" width="40" height="40" class="me-2" style="object-fit:contain;">
+          Pagina PRoA sobre carreras y deportes
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="inicio.html">Carreras</a>
             </li>
@@ -76,20 +57,18 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar fin -->
-    <!-- Sustituir el carrusel por el artículo con imágenes -->
-    <article class="article-images">
-      <img src="img/image.png" alt="Imagen 1">
-      <img src="img/NAZ_fdcf547f825f4aab851d346de235b0c6.jpg" alt="Imagen 2">
-      <img src="img/images.jfif" alt="Imagen 3">
-    </article>
-    <!-- Puedes eliminar la sección vacía si no se usa -->
-    <!-- <section>
-        <article>
-        <img src="" alt="">
-        </article>
-    </section> -->
-    <!-- Agregar Bootstrap JS -->
+    <div class="container my-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 d-flex justify-content-center align-items-center">
+          <td class="foto"><img src="img/soccer-player-playing-with-soccer-ball-on-field-at-night-video.jpg" alt="Jugador de fútbol en el campo de noche" class="img-fluid rounded mb-4 me-3" style="width:450px; height:450px; object-fit:cover;"></td>
+          <td class="foto1"><img src="img/race-winner-max-verstappen-of-netherlands-and-red-bull-news-photo-1650030483.avif" alt="Ganador de carrera Max Verstappen" class="img-fluid rounded mb-4" style="width:450px; height:450px; object-fit:cover;"></td>
+        </div>
+      </div>
+      <h1>hola</h1>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="text-center py-3 fixed-bottom">
+      2025 Pagina PRoA - Julian Fresno
+    </footer>
 </body>
 </html>

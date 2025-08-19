@@ -1,0 +1,18 @@
+.foto{
+	object-fit: cover;
+    width: 45%;
+    display: inline-block;
+    margin-left: -5%;
+    margin-right: 1%;
+    position: relative;
+    top: 70px;
+ }
+ .foto1{
+	object-fit: cover;
+    width: 450%;
+    display: inline-block;
+    margin-left: -5%;
+    margin-right: 1%;
+    position: relative;
+    top: 70px;
+ }
